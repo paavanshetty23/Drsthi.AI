@@ -1,0 +1,16 @@
+opencv-python
+numpy
+Pillow
+pytesseract
+scikit-learn
+transformers
+diffusers
+torch
+opencv-python
+numpy
+requests
+pillow
+python-dotenv
+scikit-learn
+pytesseract
+tensorflow

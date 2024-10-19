@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Environment Variables
+.env
+# Old entry for distri
+distri/
+
+# New entry for drsthi
+drsthi/
+
+# Virtual environment
+venv/
+*.env
+*.env.*
+
+# Cache files
+*.cache
+*.bak
+*.swp
+*.swo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+*.json
+*.csv
+*.dat
+
+# macOS related files
+.DS_Store
+
+# Image-related outputs
+*.png
+*.jpg
+*.jpeg
+
+# TensorFlow and Keras files
+checkpoint/
+saved_model/
+logs/
