@@ -1,0 +1,100 @@
+/* Main container styling */
+.main-title {
+  text-align: center;
+  color: white;
+  padding: 2rem 0;
+}
+
+.chat-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 1rem 0;
+  color: white;
+}
+
+.upload-section {
+  text-align: center;
+  padding: 2rem;
+  border: 2px dashed rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+.response-container {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.chat-message {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 1rem 0;
+  color: white;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Footer styling */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.social-links a {
+  color: #00ff88;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+/* Custom Streamlit elements styling */
+.stButton>button {
+  background-color: #00ff88;
+  color: black;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.stButton>button:hover {
+  background-color: #00cc6a;
+}
+
+/* File uploader styling */
+.uploadedFile {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: white !important;
+  border-radius: 5px !important;
+}
+.url-input {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  padding: 0.5rem;
+  color: white;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.url-input:focus {
+  border-color: #00ff88;
+  outline: none;
+}
