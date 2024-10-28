@@ -17,6 +17,9 @@ from main import (create_cnn_model, process_image, extract_color_palette,
 # Load environment variables
 load_dotenv()
 
+# Set the page title and favicon
+st.set_page_config(page_title="Drsthi.AI", page_icon="👁️")
+
 # Function to load and encode the background image
 def get_base64_of_bin_file(bin_file):
     with open(bin_file, 'rb') as f:
@@ -43,15 +46,29 @@ def get_download_link(text, filename, link_text):
 
 # Main Streamlit app
 def main():
-    st.title("UI Analysis ChatBot")
+    st.title("Drsthi.AI")
+    st.markdown("""
+    <div class="description-container">
+        Drsthi.AI is a tool designed to convert website UI images into LLM-convenient prompts. 
+        Upload an image of your website's UI, and Drsthi.AI will analyze it and generate a detailed prompt 
+        that can be used with large language models (LLMs) for further processing and analysis.
+    </div>
+    """, unsafe_allow_html=True)
 
-    # Custom CSS for the chat-like interface and copy button
+    # Custom CSS for the chat-like interface, description container, and copy button
     st.markdown("""
     <style>
     .chat-container {
         background-color: rgba(0, 0, 0, 0.7);
         border-radius: 10px;
         padding: 20px;
+        margin-bottom: 20px;
+    }
+    .description-container {
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
         margin-bottom: 20px;
     }
     .user-message {
