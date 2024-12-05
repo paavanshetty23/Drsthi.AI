@@ -11,3 +11,4 @@ python-dotenv
 tensorflow
 streamlit
 opencv-python-headless
+cv2
